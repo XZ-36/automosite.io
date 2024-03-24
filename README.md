@@ -1,0 +1,1 @@
+# automosite.io
