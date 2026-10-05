@@ -11,14 +11,6 @@
   box-sizing: border-box;
 }
 
-:focus, :active {
-  outline: none;
-}
-
-a :focus, a :active {
-  outline: none;
-}
-
 nav, footer, header, aside {
   display: block;
 }
@@ -45,7 +37,7 @@ button {
   cursor: pointer;
 }
 
-button ::-moz-focus-inner {
+button::-moz-focus-inner {
   padding: 0;
   border: 0;
 }
